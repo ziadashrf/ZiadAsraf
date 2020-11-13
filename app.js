@@ -12,5 +12,9 @@ let theInput = (document.getElementById("input").oninput = function () {
   }
   if (this.value < 0) {
     result.textContent = ` ازي بقي انا عاوز حضرتك تفهني ازي`;
+  }elseif(this.value > 1000 < 10000){
+    result.textContent = `يسطا من وين أنت جايب كل دا`;
+  }elseif(this.value > 10000){
+    result.textContent = `ياباشا أرمي شوي جنيهات علينا`;
   }
 });
