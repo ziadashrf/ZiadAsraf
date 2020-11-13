@@ -12,4 +12,9 @@ let theInput = (document.getElementById("input").oninput = function () {
   if (this.value >= 50000000) {
     document.getElementById("result").textContent = ` بطل لعب يا حبيبي`;
   }
+  if (this.value < 0) {
+    document.getElementById(
+      "result"
+    ).textContent = ` ازي بقي انا عاوز حضرتك تفهني ازي`;
+  }
 });
