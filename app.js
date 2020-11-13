@@ -1,7 +1,5 @@
 let theInput = (document.getElementById("input").oninput = function () {
   let theResult = Math.floor((this.value / 14) * 10);
-  console.log(typeof theResult);
-  let ch = String.fromCharCode(this.value);
   if (isNaN(this.value)) {
     document.getElementById("result").textContent = ` يسطا اكتب رقم بلاش غباء`;
   } else {
